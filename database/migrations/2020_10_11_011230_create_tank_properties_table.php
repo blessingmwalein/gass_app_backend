@@ -32,3 +32,4 @@ class CreateTankPropertiesTable extends Migration
         Schema::dropIfExists('tank_properties');
     }
 }
+ 
