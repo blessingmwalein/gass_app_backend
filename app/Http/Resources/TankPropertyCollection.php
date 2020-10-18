@@ -15,8 +15,6 @@ class TankPropertyCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return [
-            'TankProperties'=>$this->collection
-        ];
+        return $this->collection;
     }
 }

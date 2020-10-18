@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class TankType extends Model
 {
     use HasFactory;
+
+    public function brand(){
+        return $this->hasOne(TankBrand::class);
+    }
 }
